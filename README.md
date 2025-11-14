@@ -1,72 +1,46 @@
-# OTServ Brasil - Global Server
+# Tibia-IA (Baseado no OTServBR-Global)
 
-## Builds
-[![Build status](https://ci.appveyor.com/api/projects/status/github/opentibiabr/otservbr-global?branch=develop&passingText=develop%20-%20OK&svg=true)](https://ci.appveyor.com/project/dudantas/otservbr-global "Download nightly builds for Windows")
-[![Build Status](https://travis-ci.org/opentibiabr/OTServBR-Global.svg?branch=develop)](https://travis-ci.org/dudantas/otservbr-global "Linux Build Status - Shared Base 1 Branch")
+Este repositório é um *fork* do projeto [OTServ Brasil - Global Server](https://github.com/opentibiabr/otservbr-global). O objetivo é usar esta base de servidor robusta como um ambiente de testes para estudar e implementar funcionalidades de Inteligência Artificial no jogo.
 
-[![Build on MacOS](https://github.com/opentibiabr/otservbr-global/workflows/Build%20on%20MacOS/badge.svg)](https://github.com/opentibiabr/otservbr-global/actions?query=workflow%3A%22Build+on+MacOS%22)
-[![Build on Ubuntu](https://github.com/opentibiabr/otservbr-global/workflows/Build%20on%20Ubuntu/badge.svg)](https://github.com/opentibiabr/otservbr-global/actions?query=workflow%3A%22Build+on+Ubuntu%22)
-[![Build on Windows](https://github.com/opentibiabr/otservbr-global/workflows/Build%20on%20Windows/badge.svg)](https://github.com/opentibiabr/otservbr-global/actions?query=workflow%3A%22Build+on+Windows%22)
+---
 
-## Branch Shared-Base
-This branch is from a server coming from a donation made by a member of the OTServBR-Global project (who prefers to remain anonymous).
-If the creator or creators of any system that is here, want the credits and can prove to be the developer of them, get in touch with me on the discord (Eduardo Dantas #2451) and we'll talk about it.
+## 🤖 Objetivos da Implementação de IA
 
-## Has the following systems working (source)
-* Protocol 10.00 and 12.30 (working 100%)
-* Bestiary (working 100%)
-* Charm (working 100%)
-* Store (working 100%)
-* Quickloot (working 100%)
-* Cast system (working 100%)
-* Wrap system (working 100%)
-* Proxy (not tested)
-* Custom spawns loading system (working 100%)
-* And many others features
+O foco principal deste projeto é explorar como a IA moderna pode ser integrada a um servidor de Tibia. As metas iniciais incluem:
 
-## Datapack:
-* Several quests working, including dream courts, ferumbras, halls of hope, cults of tibia, forgotten knowledge and others
+* **[ ] NPCs Inteligentes:** Substituir ou aumentar os diálogos estáticos por interações dinâmicas (possivelmente usando um LLM).
+* **[ ] Comportamento de Criaturas:** Criar padrões de ataque e movimentação mais complexos e imprevisíveis para monstros.
+* **[ ] Geração de Conteúdo:** Testar a geração de quests, itens ou áreas de forma procedural.
+* **[ ] Moderação:** Utilizar IA para auxiliar na moderação do chat e detecção de comportamentos anômalos.
 
-## Downloads
-* [Client 12.30](https://github.com/dudantas/tibia-client)
-Download in the Code (or clone) button and "Download Zip"
-* [Compatible Gesior](https://forums.otserv.com.br/index.php?/forums/topic/169428-premium-gesior-aac/)
+---
 
-* For download the executables and dll files, goto for the [develop - OK](https://ci.appveyor.com/project/dudantas/otservbr-global "Download nightly builds for Windows") button, slightly above, then go to configuration: release> artifacts> otservbr-global.zip
+## 🚀 Sobre o Projeto Original (OTServ Brasil - Global Server)
 
-## Docs/Help
-[![Documentation](https://codedocs.xyz/Costallat/otservbr-global.svg)](https://codedocs.xyz/Costallat/otservbr-global/)
-[![Discord Channel](https://img.shields.io/discord/528117503952551936.svg?label=discord)](https://discord.gg/3NxYnyV)
+Abaixo estão as informações originais do projeto que serve como base.
 
-## Project
-OTServ Brasil - Global Server is a free and open-source MMORPG server emulator written in C++. It is a fork of the [Forgotten Server](https://github.com/otland/forgottenserver) project. To connect to the server and to take a stable experience, you can use our [own client](https://forums.otserv.com.br/index.php?/forums/topic/167933-otservbr-global-cliente-tibia-12/) and if you want to edit something, check our [customized tools](https://github.com/opentibiabr/tools).
+**Atenção:** Este repositório é um *fork*. Para o projeto original, acesse [opentibiabr/otservbr-global](https://github.com/opentibiabr/otservbr-global).
 
-### Getting Started
-* **WARNING: YOU NEED TO UNZIP THE MAP BEFORE START THE SERVER.**
-* [Compiling on Windows](https://forums.otserv.com.br/index.php?/forums/topic/169235-windowsvc2019-compilando-sources-otservbr-global/), alternatively download [nightly builds for Windows](https://ci.appveyor.com/project/opentibiabr/otservbr-global).
+OTServ Brasil - Global Server é um emulador de servidor MMORPG gratuito e de código aberto escrito em C++. É um fork do projeto [The Forgotten Server](https://github.com/otland/forgottenserver).
 
-### Issues
-We use the [issue tracker on GitHub](https://github.com/dudantas/otservbr-global/issues). Keep in mind that everyone who is watching the repository gets notified by e-mail when there is an activity, so be thoughtful and avoid writing comments that aren't meant for an issue (e.g. "+1"). If you'd like for an issue to be fixed faster, you should either fix it yourself and submit a pull request, or place a bounty on the issue.
+### Recursos do Servidor Base
 
-### Special Thanks
-- our partners
-- our crew (majesty, gpedro, eduardo dantas)
-- our testers (raphaellb, petardako, szulcek and olimpotibia)
-- [our contributors](https://github.com/opentibiabr/OTServBR-Global/graphs/contributors)
-- [fear lucien](https://github.com/FearLucien)
-- [cjaker](https://github.com/Eternal-Scripts)
-- [slavidodo](https://github.com/slavidodo)
-- [lucas prazeres](https://github.com/LukSrT)
-- [worthdavi](https://github.com/worthdavi)
-- [mignari and our awesome tools](https://github.com/ottools)
-- [mattyx14/otxserver](https://github.com/mattyx14/otxserver) and contributors.
-- [otland/forgottenserver](https://github.com/otland/forgottenserver) and contributors.
-- if we forget someone, we apologize by forgot you. but you know, **forgot**tenserver.
+* Protocolo 10.00 e 12.30 (funcionando 100%)
+* Bestiary (funcionando 100%)
+* Charm (funcionando 100%)
+* Store (funcionando 100%)
+* Quickloot (funcionando 100%)
+* Cast system (funcionando 100%)
+* Wrap system (funcionando 100%)
+* Proxy (não testado)
+* Sistema de carregamento de spawns customizados (funcionando 100%)
+* E muitas outras features
 
-### Sponsors
-If you want to sponsor here, join on discord and send a message for one of our administrators.
+### Datapack Base:
+* Várias quests funcionando, incluindo dream courts, ferumbras, halls of hope, cults of tibia, forgotten knowledge e outras.
 
-### Partners
-[![Supported by OTServ Brasil](https://forums.otserv.com.br/uploads/monthly_2018_05/otbr.png.9f34d819278e170c73dd155a0ca1b501.png)](https://forums.otserv.com.br)
 
-[![Protected by ServerCore](https://mktsc.servercore.com.br/protectedbyservercore.png)](https://bit.ly/1q2q4de)
+
+## 🙏 Agradecimentos ao Projeto Original
+
+Este projeto só é possível graças ao imenso trabalho da equipe do [OTServBR-Global](https://github.com/opentibiabr/otservbr-global), [The Forgotten Server](https://github.com/otland/forgottenserver) e todos os seus contribuidores. Todos os agradecimentos e méritos do servidor base são direcionados a eles.
